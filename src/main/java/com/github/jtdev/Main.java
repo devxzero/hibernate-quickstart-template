@@ -3,10 +3,10 @@ package com.github.jtdev;
 import com.github.jtdev.entities.Comment;
 import com.github.jtdev.entities.Post;
 import com.github.jtdev.entities.User;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.Persistence;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 import java.util.List;
 
 public class Main {

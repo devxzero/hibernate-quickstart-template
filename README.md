@@ -3,7 +3,7 @@ This is a simple plain Hibernate Maven project, which can be handy to quickly tr
 
 ## Specs
 * Maven project structure
-* Hibernate 5.4
+* Hibernate Core 5.6.7
 * Java Persistence API 2.2
 * MariaDB database driver
 * Local H2 database
