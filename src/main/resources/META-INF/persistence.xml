@@ -12,6 +12,7 @@
             <property name="javax.persistence.jdbc.url" value="jdbc:h2:file:./h2.db;DB_CLOSE_DELAY=-1" />
             <property name="javax.persistence.jdbc.user" value="" />
             <property name="javax.persistence.jdbc.password" value="" />
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
 
 
             <!-- Properties for MariaDB -->

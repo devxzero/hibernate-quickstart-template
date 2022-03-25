@@ -1,8 +1,8 @@
-package com.github.jtdev;
+package com.github.devxzero;
 
-import com.github.jtdev.entities.Comment;
-import com.github.jtdev.entities.Post;
-import com.github.jtdev.entities.User;
+import com.github.devxzero.entities.Comment;
+import com.github.devxzero.entities.Post;
+import com.github.devxzero.entities.User;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
@@ -12,7 +12,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         // Initialize JPA and Hibernate
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("com.github.jtdev.jpa-template");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("com.github.devxzero.jpa-template");
 
         // Start persistence context with an new entityManager
         EntityManager entityManager = entityManagerFactory.createEntityManager();

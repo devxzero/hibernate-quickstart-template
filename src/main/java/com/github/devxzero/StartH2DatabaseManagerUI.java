@@ -1,4 +1,4 @@
-package com.github.jtdev;
+package com.github.devxzero;
 
 import java.sql.SQLException;
 

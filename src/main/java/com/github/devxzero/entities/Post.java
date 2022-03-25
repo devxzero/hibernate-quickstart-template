@@ -1,4 +1,4 @@
-package com.github.jtdev.entities;
+package com.github.devxzero.entities;
 
 import jakarta.persistence.*;
 import java.util.HashSet;
